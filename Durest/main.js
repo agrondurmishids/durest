@@ -1,7 +1,7 @@
 let scrollBtn = document.getElementById('scrollToTop');
 
 window.onscroll = function() {
-    if(document.body.scrollTop > 150 || document.documentElement.scroolTop > 100) {
+    if(document.body.scrollTop > 150 || document.documentElement.scrollTop > 100) {
         scrollBtn.style.display = "block";
     }
 
